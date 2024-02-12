@@ -1,4 +1,4 @@
-### Participation Guide
+# Participation Guide
 Follow these steps to submit your solution.
 
 ### 1. Fork the Repository
@@ -34,12 +34,12 @@ git checkout -b your-branch-name
 - Set up the upstream remote to the main bootcamp repository:
   
 ```bash
-git remote add upstream https://github.com/original-username/bootcamp-repo.git
+git remote add upstream https://github.com/original-username/Lets-Code-C.git
 ```
 
 - Replace original-username with the username of the original repository.
   
-6. Create a Directory with Your Name
+### 6. Create a Directory with Your Name
 - Create a directory with your name in the format FirstnameLastname:
   
 ```bash
