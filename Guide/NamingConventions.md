@@ -6,7 +6,7 @@ Follow these naming conventions to organize and structure your solutions effecti
 
 Create a primary directory with your name in the format `FirstnameLastname`.
 
-**Example:** `JohnDoe`
+**Example:** `RamSingh`
 
 ## 2. Secondary Directory:
 
