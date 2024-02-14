@@ -33,8 +33,6 @@ For more details, refer to [CodingStandards.md](Guide/CodingStandards.md).
 
 ---
 
-# Welcome to the Lets Code C Bootcamp
-
 ## Participation Guide
 
 To successfully submit your solutions, follow these steps:
