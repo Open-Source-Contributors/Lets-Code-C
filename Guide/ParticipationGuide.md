@@ -35,7 +35,7 @@ cd Day1
 ## Step 6: Create a Source File
 In the day's subdirectory, create a source file for the first problem of the day. For example, for Day 1, create a file named 01.c. Ensure that every file name starts with one trailing zero.
 ```bash
-touch 01.c
+code 01.c
 ```
 ## Step 7: Write Your Solution Code
 Open the source file using your preferred text editor or IDE and write your solution code.
