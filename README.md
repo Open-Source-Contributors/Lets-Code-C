@@ -29,7 +29,7 @@ To ensure consistency and readability across all code submissions, participants 
 
 By adhering to these coding standards, we create a more collaborative and readable codebase. Participants are encouraged to review this guide before submitting their solutions.
 
-For more details, refer to [CodingStandards.md](/guide/CodingStandards.md).
+For more details, refer to [CodingStandards.md](./guide/CodingStandards.md).
 
 ---
 
@@ -73,7 +73,7 @@ Submitting your solutions is a straightforward process. Follow these steps:
 
 That's it! Your solution is now submitted. Remember, write access for edits is available until 11:00 PM the next day.
 
-For more details, refer to [ParticipationGuide.md](/guide/ParticipationGuide.md).
+For more details, refer to [ParticipationGuide.md](./guide/ParticipationGuide.md).
 
 ---
 
