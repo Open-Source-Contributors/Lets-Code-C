@@ -2,7 +2,7 @@
 
 ## Step 1: Click on the Given Link
 
-Click on the link provided to access the bootcamp repository.
+Click on the link provided.
 
 ## Step 2: Generate Your Repo
 
@@ -10,7 +10,7 @@ A new repository will be generated specifically for you.
 
 ## Step 3: Copy Repo Link
 
-Copy the link to your newly generated repository. This link will be used to clone the repository to your local system.
+Copy the link of your newly generated repo.
 
 ## Step 4: Clone Repo Locally
 
