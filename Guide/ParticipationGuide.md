@@ -1,77 +1,70 @@
 # Participant Guide: Submitting Your Solution
 
-## Step 1: Click on the Given Link
+Follow these steps to successfully submit your solution:
 
-Click on the link provided.
+## Step 1: Fork the Repository
 
-## Step 2: Generate Your Repo
+1. Click on the "Fork" button at the top right of the bootcamp repository page on GitHub.
 
-A new repository will be generated specifically for you.
+## Step 2: Clone Your Forked Repository
 
-## Step 3: Copy Repo Link
-
-Copy the link of your newly generated repo.
-
-## Step 4: Clone Repo Locally
-
-Open your terminal or Git Bash and navigate to the directory where you want to clone the repository. Use the following command:
+2. Open your terminal or Git Bash.
 
 ```bash
-git clone <paste-repo-link>
+git clone <your-forked-repo-link>
+cd <repository-name>
 ```
-Replace <paste-repo-link> with the link you copied earlier.
+Replace <your-forked-repo-link> with the link to your forked repository and <repository-name> with the name of your cloned repository.
 
-## Step 5: Change Directory
-Navigate to the cloned repository by using the following command:
-
+## Step 3: Create a Branch
+Create a branch using your name as its identifier.
+```bash
+git checkout -b <your-name-branch>
+```
+## Step 4: Navigate to Your Directory
+Navigate to your cloned repository directory.
 ```bash
 cd <repository-name>
 ```
-Replace <repository-name> with the name of your cloned repository.
-
-## Step 6: Create a Source File
-Inside the repository directory, create a new source file to write your code solution. You can use your preferred text editor or an integrated development environment (IDE).
-
+## Step 5: Create a Subdirectory for the Day
+Inside the repository, create a subdirectory for the specific day using the following command. Use a naming convention such as Day1.
 ```bash
-code <filename>
+mkdir Day1
+cd Day1
 ```
-
-## Step 7: Write Your Solution
-Write your code solution within the newly created source file. Solve the coding challenge provided in the assignment.
-
-## Step 8: Save the File
-Save your changes to the source file.
-
-## Step 9: Stage and Commit Changes
-Stage the changes and commit them to your local repository. Use the following commands:
-
+## Step 6: Create a Source File
+In the day's subdirectory, create a source file for the first problem of the day. For example, for Day 1, create a file named 01.c. Ensure that every file name starts with one trailing zero.
+```bash
+touch 01.c
+```
+## Step 7: Write Your Solution Code
+Open the source file using your preferred text editor or IDE and write your solution code.
+## Step 8: Stage and Commit Your Solution
+Stage your changes and commit them with a descriptive message.
 ```bash
 git add .
 git commit -m "Your commit message"
 ```
-Replace "Your commit message" with a concise message describing the changes you made.
+## Step 9: Push Changes to Your Forked Repository
+Push your changes to your forked repository.
+```bash
+git push origin <your-name-branch>
+```
+## Optional Steps: Update Your Forked Repository
+If the original repository has been updated, you may want to pull those changes into your forked repository.
 
-## Step 10: Create a Pull Request
-Push your changes to the remote repository and create a pull request. Use the following commands:
-
+Fetch the changes from the original repository.
+```bash
+git fetch upstream
+```
+Merge the changes into your local repository.
+```bash
+git merge upstream/main
+```
+Push the changes to your forked repository.
 ```bash
 git push origin main
 ```
-That's it! Your solution is now submitted. You can track the status of your pull request and engage with the community in discussions related to the coding challenge.
-
-# Notice: Limited Write Access Period
-
-Please be advised that you have the privilege to edit your answer from your local system until 11:00 PM of the next day. After this deadline, your write access to the solution will be restricted. 
-
-## Important Points:
-
-1. **Deadline:** The deadline for editing your solution is set at 11:00 PM of the day following your initial submission.
-
-2. **Write Access Restriction:** Once the deadline passes, your ability to make further changes to your solution will be restricted.
-
-3. **Submission Lock:** This measure is in place to ensure a fair and timely evaluation process and to encourage participants to submit their solutions within the provided timeframe.
-
-Please make sure to complete and finalize your solution before the specified deadline. If you have any concerns or need assistance, feel free to reach out to the bootcamp organizers.
+That's it! Your solution is now submitted. Create a pull request on GitHub to notify the bootcamp organizers of your submission.
 
 Happy coding! 🚀
-
