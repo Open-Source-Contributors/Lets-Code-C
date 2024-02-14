@@ -33,47 +33,33 @@ For more details, refer to [CodingStandards.md](Guide/CodingStandards.md).
 
 ---
 
+# Welcome to the Lets Code C Bootcamp
+
 ## Participation Guide
 
-Submitting your solutions is a straightforward process. Follow these steps:
+To successfully submit your solutions, follow these steps:
 
-1. **Click on the Given Link:**
-   - Access the assignment with provided link.
+1. **Fork the Repository:** Click on the "Fork" button at the top right of the bootcamp repository page on GitHub.
 
-2. **Generate Your Repo:**
-   - A new repository will be generated specifically for you.
+2. **Clone Your Forked Repository:** Open your terminal or Git Bash and clone the repository.
 
-3. **Copy Repo Link:**
-   - Copy the repo link generated.
+3. **Create a Branch:** Create a branch using your name as its identifier.
 
-4. **Clone Repo Locally:**
-   - Open your terminal or Git Bash and navigate to the directory where you want to clone the repository.
-   - Use the command: `git clone <paste-repo-link>`
+4. **Navigate and Create Subdirectory:** Change to your cloned repository directory and create a subdirectory for the specific day.
 
-5. **Change Directory:**
-   - Navigate to the cloned repository using: `cd <repository-name>`
+5. **Create a Source File:** In the day's subdirectory, create a source file for the first problem of the day.
 
-6. **Create a Source File:**
-   - Inside the repository directory, create a new source file to write your code solution.
+6. **Write Your Solution Code:** Open the source file and write your solution code.
 
-7. **Write Your Solution:**
-   - Write your code solution within the newly created source file.
+7. **Stage and Commit Your Solution:** Stage and commit your changes with a descriptive message.
 
-8. **Save the File:**
-   - Save your changes to the source file.
+8. **Push Changes to Your Forked Repository:** Push your changes to your forked repository.
 
-9. **Stage and Commit Changes:**
-   - Stage the changes: `git add .`
-   - Commit the changes: `git commit -m "Your commit message"`
+For detailed instructions and additional information, refer to [ParticipationGuide.md](Guide/ParticipationGuide.md).
 
-10. **Create a Pull Request:**
-    - Push your changes to the remote repository: `git push origin main`
-    - Navigate to your repository on GitHub and click on "Compare & pull request."
-    - Follow the prompts to create a pull request.
+That's it! Your solution is now submitted. Create a pull request on GitHub to notify the bootcamp organizers of your submission.
 
-That's it! Your solution is now submitted. Remember, write access for edits is available until 11:00 PM the next day.
-
-For more details, refer to [ParticipationGuide.md](Guide/ParticipationGuide.md).
+Happy coding! 🚀
 
 ---
 
