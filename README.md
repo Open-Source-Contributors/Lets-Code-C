@@ -34,7 +34,7 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the guidel
 
 ## MIT License
 
-This bootcamp and its associated code are licensed under the terms of the [MIT License](LICENSE.md). See the [LICENSE.md](LICENSE.md) file for details.
+This bootcamp and its associated code are licensed under the terms of the [MIT License](LICENSE).
 
 ## How to participate
 
