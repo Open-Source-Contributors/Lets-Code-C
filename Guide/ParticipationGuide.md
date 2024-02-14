@@ -1,115 +1,77 @@
-# Participation Guide
-Follow these steps to submit your solution.
+# Participant Guide: Submitting Your Solution
 
-### 1. Fork the Repository
-- Visit the main bootcamp repository on GitHub.
-- Click on the "Fork" button to create your fork.
-  
-### 2. Clone the Repository
-- Clone your forked repository to your local machine:
-  
+## Step 1: Click on the Given Link
+
+Click on the link provided to access the bootcamp repository.
+
+## Step 2: Generate Your Repo
+
+A new repository will be generated specifically for you.
+
+## Step 3: Copy Repo Link
+
+Copy the link to your newly generated repository. This link will be used to clone the repository to your local system.
+
+## Step 4: Clone Repo Locally
+
+Open your terminal or Git Bash and navigate to the directory where you want to clone the repository. Use the following command:
+
 ```bash
-git clone https://github.com/your-username/Lets-Code-C.git
+git clone <paste-repo-link>
+```
+Replace <paste-repo-link> with the link you copied earlier.
+
+## Step 5: Change Directory
+Navigate to the cloned repository by using the following command:
+
+```bash
+cd <repository-name>
+```
+Replace <repository-name> with the name of your cloned repository.
+
+## Step 6: Create a Source File
+Inside the repository directory, create a new source file to write your code solution. You can use your preferred text editor or an integrated development environment (IDE).
+
+```bash
+code <filename>
 ```
 
-- Replace your-username with your GitHub username.
-  
-### 3. Setup Repository in Local System
-- Move into the cloned repository:
-  
-```bash
-cd Lets-Code-C
-```
+## Step 7: Write Your Solution
+Write your code solution within the newly created source file. Solve the coding challenge provided in the assignment.
 
-### 4. Create a Branch
-- Create a new branch for your work:
-  
-```bash
-git checkout -b your-branch-name
-```
+## Step 8: Save the File
+Save your changes to the source file.
 
-- Replace your-branch-name with a descriptive name for your branch.
-  
-### 5. Set Upstream of Branch
-- Set up the upstream remote to the main bootcamp repository:
-  
-```bash
-git remote add upstream https://github.com/original-username/Lets-Code-C.git
-```
-
-- Replace original-username with the username of the original repository.
-  
-### 6. Create a Directory with Your Name
-- Create a directory with your name in the format FirstnameLastname:
-  
-```bash
-mkdir FirstnameLastname
-```
-
-- Replace FirstnameLastname with your actual name.
-  
-### 7. Create a Subdirectory with Day Number
-- Inside your directory, create a subdirectory for each day using the format DayX, where X is the day number:
-  
-```bash
-cd FirstnameLastname
-mkdir Day1
-```
-
-- Replace Day1 with the appropriate day number.
-
-### 8. Create Solution of Problem One
-- Inside the day's directory, create a C solution file for the first problem using the format 01.c:
-  
-```bash
-cd Day1
-touch 01.c
-```
-
-### 9. Write Your Code Solution
-- Open the 01.c file in your preferred text editor.
-- Write your C code solution.
-
-### 10. Stage and Commit Changes
-- Stage your changes:
+## Step 9: Stage and Commit Changes
+Stage the changes and commit them to your local repository. Use the following commands:
 
 ```bash
 git add .
+git commit -m "Your commit message"
 ```
+Replace "Your commit message" with a concise message describing the changes you made.
 
-- Commit your changes:
+## Step 10: Create a Pull Request
+Push your changes to the remote repository and create a pull request. Use the following commands:
 
 ```bash
-git commit -m "Solve problem 1 for Day 1"
+git push origin main
 ```
+That's it! Your solution is now submitted. You can track the status of your pull request and engage with the community in discussions related to the coding challenge.
 
-### 11. Create a Pull Request
-- Visit your fork on GitHub.
-- Switch to your branch using the branch dropdown.
-- Click on "New Pull Request."
-- Ensure the base repository is the main bootcamp repository and the base branch is "main."
-- Write a descriptive title and comment.
-- Click on "Create Pull Request."
+# Notice: Limited Write Access Period
 
-### Steps to Update Repo with Recent Changes and Other Related Things
+Please be advised that you have the privilege to edit your answer from your local system until 11:00 PM of the next day. After this deadline, your write access to the solution will be restricted. 
 
-- Fetch Changes from Upstream:
+## Important Points:
 
-```bash
-git fetch upstream
-```
+1. **Deadline:** The deadline for editing your solution is set at 11:00 PM of the day following your initial submission.
 
-- Merge Changes from Upstream into Your Local Branch:
+2. **Write Access Restriction:** Once the deadline passes, your ability to make further changes to your solution will be restricted.
 
-```bash
-git merge upstream/main
-```
+3. **Submission Lock:** This measure is in place to ensure a fair and timely evaluation process and to encourage participants to submit their solutions within the provided timeframe.
 
-- Push Changes to Your Fork on GitHub:
-```bash
-git push origin your-branch-name
-```
+Please make sure to complete and finalize your solution before the specified deadline. If you have any concerns or need assistance, feel free to reach out to the bootcamp organizers.
 
-We assume you to follow the above guide and stay consistent with your submissions.
+Happy coding! 🚀
 
-Happy Coding!
