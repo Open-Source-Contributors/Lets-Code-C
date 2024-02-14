@@ -4,28 +4,28 @@ Welcome to the "Lets Code C" bootcamp! This program is designed to enhance your 
 
 ## Directory Structure
 
-├── Problems/
-│   ├── Day1/
-│   │   ├── 01.md
-│   │   ├── 02.md
-│   │   └── ...
-│   ├── Day2/
-│   │   ├── 01.md
-│   │   ├── 02.md
-│   │   └── ...
-│   └── ...
-├── Solutions/
-│   ├── Day1/
-│   │   ├── 01.c
-│   │   ├── 02.c
-│   │   └── ...
-│   ├── Day2/
-│   │   ├── 01.c
-│   │   ├── 02.c
-│   │   └── ...
-│   └── ...
-├── CODE_OF_CONDUCT.md
-└── LICENSE.md
+├── Problems/ </br>
+│   ├── Day1/ </br>
+│   │   ├── 01.md </br>
+│   │   ├── 02.md </br>
+│   │   └── ... </br> 
+│   ├── Day2/ </br> 
+│   │   ├── 01.md </br> 
+│   │   ├── 02.md </br> 
+│   │   └── ... </br> 
+│   └── ... </br> 
+├── Solutions/ </br> 
+│   ├── Day1/ </br> 
+│   │   ├── 01.c </br> 
+│   │   ├── 02.c </br> 
+│   │   └── ... </br> 
+│   ├── Day2/ </br> 
+│   │   ├── 01.c </br> 
+│   │   ├── 02.c </br> 
+│   │   └── ... </br> 
+│   └── ... </br> 
+├── CODE_OF_CONDUCT.md </br> 
+└── LICENSE.md </br> 
 
 
 ## Code of Conduct
