@@ -21,7 +21,7 @@ Create a branch using your name as its identifier.
 ```bash
 git checkout -b <your-name-branch>
 ```
-## Step 4: Create and Navigate to Your Directory.
+## Step 4: Create a directory with your name and Navigate to Your Directory.
 ```bash
 mkdir <FirstnameLastname>
 cd <repository-name>
@@ -53,6 +53,10 @@ git push origin <your-name-branch>
 ## Optional Steps: Update Your Forked Repository
 If the original repository has been updated, you may want to pull those changes into your forked repository.
 
+Pull the changes from the original repository. 
+```bash
+git pull
+```
 Fetch the changes from the original repository.
 ```bash
 git fetch upstream
@@ -63,7 +67,7 @@ git merge upstream/main
 ```
 Push the changes to your forked repository.
 ```bash
-git push origin main
+git push origin <your-branch-name>
 ```
 That's it! Your solution is now submitted. Create a pull request on GitHub to notify the bootcamp organizers of your submission.
 
