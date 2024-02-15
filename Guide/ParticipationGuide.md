@@ -21,9 +21,9 @@ Create a branch using your name as its identifier.
 ```bash
 git checkout -b <your-name-branch>
 ```
-## Step 4: Navigate to Your Directory
-Navigate to your cloned repository directory.
+## Step 4: Create and Navigate to Your Directory.
 ```bash
+mkdir <FirstnameLastname>
 cd <repository-name>
 ```
 ## Step 5: Create a Subdirectory for the Day
