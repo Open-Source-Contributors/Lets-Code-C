@@ -52,8 +52,8 @@ Scores:
 2. Correctness of the Code: 1/5
   --Comment: %s is only used for one string.
 
-3. Coding Standards Adherence: 5/5
+3. Coding Standards Adherence: 4/5
   --Comment: Consider improving code output cleanliness for enhanced readability.
 
-Total Score: 14/15
+Total Score: 13/15
 */
