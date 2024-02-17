@@ -49,7 +49,7 @@ Scores:
 2. Correctness of the Code: 5/5
 
 3. Coding Standards Adherence: 4/5
-   - Comment: Consider improving code output cleanliness for enhanced readability.
+   - Comment: Consider improving code output cleanliness for enhanced readability and follow Coding Standards provided.
    
 Total Score: 14/15
 */
