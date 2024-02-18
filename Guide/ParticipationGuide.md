@@ -21,9 +21,9 @@ Create a branch using your name as its identifier.
 ```bash
 git checkout -b <your-name-branch>
 ```
-## Step 4: Navigate to Your Directory
-Navigate to your cloned repository directory.
+## Step 4: Create a directory with your name and Navigate to Your Directory.
 ```bash
+mkdir <FirstnameLastname>
 cd <repository-name>
 ```
 ## Step 5: Create a Subdirectory for the Day
@@ -35,7 +35,7 @@ cd Day1
 ## Step 6: Create a Source File
 In the day's subdirectory, create a source file for the first problem of the day. For example, for Day 1, create a file named 01.c. Ensure that every file name starts with one trailing zero.
 ```bash
-touch 01.c
+code 01.c
 ```
 ## Step 7: Write Your Solution Code
 Open the source file using your preferred text editor or IDE and write your solution code.
@@ -53,6 +53,10 @@ git push origin <your-name-branch>
 ## Optional Steps: Update Your Forked Repository
 If the original repository has been updated, you may want to pull those changes into your forked repository.
 
+Pull the changes from the original repository. 
+```bash
+git pull
+```
 Fetch the changes from the original repository.
 ```bash
 git fetch upstream
@@ -63,7 +67,7 @@ git merge upstream/main
 ```
 Push the changes to your forked repository.
 ```bash
-git push origin main
+git push origin <your-branch-name>
 ```
 That's it! Your solution is now submitted. Create a pull request on GitHub to notify the bootcamp organizers of your submission.
 
