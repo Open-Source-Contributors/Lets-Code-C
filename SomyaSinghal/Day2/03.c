@@ -1,7 +1,7 @@
 #include <stdio.h>
 int year(int x)
 {
-    if (x % 4 == 0)
+    if (x % 400 == 0)
     return 1;
     else
     return 0;
