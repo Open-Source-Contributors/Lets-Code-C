@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ // Function to determine whether the entered number is prime //
 int main()
 {
 
