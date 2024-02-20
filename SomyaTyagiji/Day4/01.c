@@ -12,6 +12,11 @@ int main() {
     int num;
     printf("Enter a number: ");
     scanf("%d", &num);
+    if(num < 0){
+        printf("Error:Factorial of negative number is not define\n");
+        }else{
     printf("Factorial of %d is %d\n", num, factorial(num));
+        }
     return 0;
 }
+
