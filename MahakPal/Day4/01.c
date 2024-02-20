@@ -6,7 +6,7 @@ int factorial(int n){
 if (n == 0){
    return 1;
    } else {
-return n * (n - 1);
+return n * (n-1);
    }
 }
 int main()
@@ -15,10 +15,6 @@ int main()
     printf("Enter any number\n");
     scanf("%d", &number);
 
-if (number < 0) {
-    printf("Enter non negative integer\n");
-} else {
-    printf("%d\n", factorial(number));
-}
+    printf("%d", number, factorial);
     return 0;
 }
