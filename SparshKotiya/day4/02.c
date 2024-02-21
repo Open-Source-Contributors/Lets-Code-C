@@ -8,7 +8,7 @@ int main ()
   printf("If Nobita's mom enters (input is 1) \n");
   printf("If Nobita enters (input is 2) \n");
   printf("If others enter (input is 3) \n");
-
+//  take input from user
   printf("Who enter in the room ?");
   scanf("%d",&person);
 
@@ -30,8 +30,8 @@ int main ()
     printf("plese enter valid input which is 1,2,3");
  }
 
-
-
+      // 
+   
         for (int i = 0; i < 10; i++) 
         {  printf("baking dora cake...");
 
