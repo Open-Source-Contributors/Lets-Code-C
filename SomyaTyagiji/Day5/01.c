@@ -6,14 +6,11 @@
  scanf("%d",&num);
  if(num == 0){
     printf("0 is not a perfect number");
-    return 0;
- }
+    return 0;}
 
  for (i =1;i<num;i++){
 if(num % i == 0 )
-{   sum += i;}
-
- }
+{   sum += i;}}
 if (sum == num){
 printf("%d is a perfect number",num);}
 else{
