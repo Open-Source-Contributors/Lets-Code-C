@@ -34,8 +34,11 @@ int main() {
     char new_time[20]; 
     printf("\nPlease enter the unique ID of the station you want to update the arrival time for:\n");
     scanf("%d", &update_ID);
-    printf("\nPlease enter the new arrival time:\n");
-    scanf("%s", new_time);
+    char am_pm[3];
+    printf("\nPlease enter the new arrival time (HH:MM) and AM/PM indicator:\n");
+    scanf("%s %s", new_time, am_pm);
+    strcat(new_time, " ");
+    strcat(new_time, am_pm);
     printf("\nUpdate Time of Arrival for station with it's unique train ID %d to %s:\n", update_ID, new_time);
     update_arrival_time(timetable, update_ID, new_time);
 
