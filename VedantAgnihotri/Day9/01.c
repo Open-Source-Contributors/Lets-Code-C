@@ -8,46 +8,46 @@ struct Station {
 };
 
 // decleration of function prototypes hadbeen applied here
-void createtimetable(struct Station timetable[]);
-void displaytimetable(struct Station timetable[]);
-void searchbyID(struct Station timetable[], int id);
-void updatearrivaltime(struct Station timetable[], int id, char newtime[]);
+void create_timetable(struct Station timetable[]);
+void display_timetable(struct Station timetable[]);
+void search_by_id(struct Station timetable[], int id);
+void update_arrival_time(struct Station timetable[], int id, char new_time[]);
 
 int main() {
     struct Station timetable[7]; 
 
     // Creating timetable of train
-    createtimetable(timetable);
+    create_timetable(timetable);
 
     // Displaying the timetable
     printf("Timetable for Train :\n");
-    displaytimetable(timetable);
+    display_timetable(timetable);
 
     // Search by ID
-    int decleareID; 
+    int decleare_ID; 
     printf("\nPlease enter the unique ID of the station you are searching for:\n");
-    scanf("%d", &decleareID);
-    searchbyID(timetable, decleareID);
+    scanf("%d", &decleare_ID);
+    search_by_id(timetable, decleare_ID);
 
     // Update the arrival time of thomas the tank engine
-    int updateID;
-    char newtime[20]; 
+    int update_ID;
+    char new_time[20]; 
     printf("\nPlease enter the unique ID of the station you want to update the arrival time for:\n");
-    scanf("%d", &updateID);
+    scanf("%d", &update_ID);
     printf("\nPlease enter the new arrival time:\n");
-    scanf("%s", newtime);
-    printf("\nUpdate Time of Arrival for station with it's unique train ID %d to %s:\n", updateID, newtime);
-    updatearrivaltime(timetable, updateID, newtime);
+    scanf("%s", new_time);
+    printf("\nUpdate Time of Arrival for station with it's unique train ID %d to %s:\n", update_ID, new_time);
+    update_arrival_time(timetable, update_ID, new_time);
 
     // Display updated timetable
     printf("\nUpdated Train Timetable:\n");
-    displaytimetable(timetable);
+    display_timetable(timetable);
 
     return 0;
 }
 
 // Function to create the train timetable is defined here
-void createtimetable(struct Station timetable[])
+void create_timetable(struct Station timetable[])
  {
     struct Station stations[7] =
      {
@@ -64,7 +64,7 @@ void createtimetable(struct Station timetable[])
 }
 
 // Function to display the entire time table
-void displaytimetable(struct Station timetable[]) {
+void display_timetable(struct Station timetable[]) {
     for (int i = 0; i < 7; i++)
      {
         printf("Station ID: %03d | Name: %16s | Arrival Time: %s\n", timetable[i].stationID, timetable[i].stationname, timetable[i].arrivaltime);
@@ -72,7 +72,7 @@ void displaytimetable(struct Station timetable[]) {
 }
 
 // Function to search for a station by it's ID
-void searchbyID(struct Station timetable[], int id) {
+void search_by_id(struct Station timetable[], int id) {
     for (int i = 0; i < 7; i++)
      {
         if (timetable[i].stationID == id)
@@ -85,7 +85,7 @@ void searchbyID(struct Station timetable[], int id) {
 }
 
 // Function to update the arrival time of a specific station
-void updatearrivaltime(struct Station timetable[], int id, char newtime[]) {
+void update_arrival_time(struct Station timetable[], int id, char newtime[]) {
     for (int i = 0; i < 7; i++) {
         if (timetable[i].stationID == id)
          {
