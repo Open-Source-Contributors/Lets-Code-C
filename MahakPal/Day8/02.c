@@ -76,33 +76,10 @@ void stone_paper_scissors(int player1,int player2)
 
     }
     else 
-       if (player1==1 && player2==2)
-       {
-        printf("player 1 wins ! \n");
-       }
-        else 
-            if (player1==1 && player2==3)
-            {
-                printf("player 1 wins !\n");
-            }
-             else  //p1,c2
-                if (player1==2 && player2==1)
-                {
-                    printf("player 1 wins !\n");
-                }
-                else 
-                   if (player1==2 && player2==3)
-                   {
-                    printf("player 2 wins !\n");
-                   }
-                   else //p1,c3
-                      if (player1==3 && player2==1)
-                      {
-                        printf("player 2 wins ! \n");
-                      }
-                      else 
-                         if (player1==3 && player2==2)
-                         {
-                            printf("player 1 wins ! \n");
-                         }
-}        
+     if((player1 == 1 && player2 == 3) || (player1 == 2 && player2 == 1) || (player1 == 3 && player2 == 2)) {
+        printf("Player 1 wins!\n");
+    } else {
+        printf("Player 2 wins!\n");
+    }
+}
+  
