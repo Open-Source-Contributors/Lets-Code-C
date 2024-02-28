@@ -26,8 +26,8 @@ int main() {
         scanf("%d", &n);
     }
 
-    printPattern(n);
-    printPattern(n);
+    print_pattern(n);
+    print_pattern(n);
 
     return 0;
 }

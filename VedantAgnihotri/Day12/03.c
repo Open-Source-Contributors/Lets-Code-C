@@ -10,21 +10,24 @@ int main() {
         scanf("%d", &n);
     }
 
-    for(int i = 0; i < n; i++) {
-        if(i < n / 2) {
-            for(int j = 0; j < n; j++) {
-                printf("*");
-            }
-            printf("\n");
-        } else if(i == n / 2) {
-            printf("*\n");
-        } else {
-            for(int j = 0; j < n; j++) {
-                printf("*");
-            }
-            printf("\n");
-        }
+    if(n % 3 == 0) {
+        printf("***\n");
+        printf(" *\n");
+        printf(" *\n");
+        printf("***\n");
+        printf("***\n");
+         printf(" *\n");
     }
+     if(n % 5 == 0) {
+        printf("*****\n");
+        printf(" *\n");
+        printf(" *\n");
+        printf("*****\n");
+        printf("*****\n");
+         printf(" *\n");
+    }
+
+
 
     return 0;
 }
