@@ -2,16 +2,16 @@
 
 ## Top Performers
 
-Congratulations to our top performers in Week 1! These students have excelled in the coding challenges, showcasing their dedication and skills:
+Congratulations to our top performers in Week 2! These students have excelled in the coding challenges, showcasing their dedication and skills:
 
 ### 1. [Vedant Agnihotri](https://github.com/vedantagnihotri2004)
-   - **Week 1 Total Score:** [140/150]
+   - **Week 2 Total Score:** [140/150]
 
 ### 2. [Mahak Pal](https://github.com/Mahak121)
-   - **Week 1 Total Score:** [47/150]
+   - **Week 2 Total Score:** [47/150]
 
 ### 3. [Somya Singhal](https://github.com/somyasinghal123)
-   - **Week 1 Total Score:** [35/150]
+   - **Week 2 Total Score:** [35/150]
 
 ## Special Achievements
 
