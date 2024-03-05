@@ -6,19 +6,18 @@ union Favorite_Dish {
     int biryani_served;
     int dosa_count;
     int bhature_count;
-    float paneer_grm;
-    
+    float paneer_grm; // Changed from int to float
 
     
 };
 
 // Define the DishType with the help of union
-union Dish_Type {
+ typedef union Dish_Type {
     int Biryani;
     int Dosa;
     int Chole_Bhature;
     float Matar_Paneer;
-};
+}
 
 // Defining the friend and details with the help of structure
 struct Friend {
@@ -33,7 +32,7 @@ void input_preferences(struct Friend *f) {
     scanf("%s", f->name);
 
     printf("Enter dish type (0 for Biryani, 1 for Dosa, 2 for Chole Bhature, 3 for Matar Paneer): ");
-    scanf("%d", &(f->dish_type));
+    scanf("%d ", &(f->dish_type));
 
     if (f->dish_type.Biryani == 0) 
     {
@@ -57,7 +56,7 @@ void input_preferences(struct Friend *f) {
     }
 }
 
-// Function to show each friend's name and their favorite dish details
+// Function to show eachfriend's name and their favorite dish details
 void display_information(struct Friend *f) 
 {
     printf("Friend's name: %s\n", f->name);

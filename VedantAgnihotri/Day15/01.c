@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 // to remove special characters from the message
-void remove_special_characters(char str[]) {
+void removing_special_characters(char str[]) {
     int j = 0;
     for (int i = 0; str[i]; i++) {
         if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= '0' && str[i] <= '9')) {
@@ -78,7 +78,7 @@ void replace_numbers(char str[]) {
 }
 
 // to decrypt the message
-void caesar_cipher_decryption(char str[]) {
+void caesar_cipher_decryption_of_message(char str[]) {
     printf("Deciphered message using Caesar Cipher: ");
     for (int i = 0; str[i]; i++) {
         if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {
@@ -113,7 +113,7 @@ int main() {
     printf("Original Message: %s\n", coded_message);
 
     // Remove Special Characters
-    remove_special_characters(coded_message);
+    removing_special_characters(coded_message);
 
     //  Extract Digits
     extract_digits(coded_message);
@@ -125,7 +125,7 @@ int main() {
     replace_numbers(coded_message);
 
     // Caesar Cipher Decryption
-    caesar_cipher_decryption(coded_message);
+    caesar_cipher_decryption_of_message(coded_message);
 
     //  Count Vowels and Consonants
     count_vowels_and_consonants(coded_message);

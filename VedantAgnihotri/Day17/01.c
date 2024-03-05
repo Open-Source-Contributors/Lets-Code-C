@@ -1,8 +1,8 @@
 #include <stdio.h>
 // Constants for hotel dimensions
-#define BUILDINGS 3
-#define FLOORS 10
-#define ROOMS 20
+#define BUILDINGS [3]
+#define FLOORS [10]
+#define ROOMS [20]
 
 // Function prototypes
 void initialize_hotel(int hotel[BUILDINGS][FLOORS][ROOMS]);
