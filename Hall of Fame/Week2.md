@@ -23,4 +23,4 @@ Keep up the great work. Happy Coding!
 
 ---
 
-**Lets Code C - Celebrating Coding Excellence in Week 2!
+**Lets Code C - Celebrating Coding Excellence in Week 2!**
