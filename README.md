@@ -111,7 +111,7 @@ This bootcamp and its associated code are licensed under the terms of the [MIT L
 
 # 🚀 Event Conclusion
 
-And that's a wrap! From 14th Feb 2024 to [9th March 2024], this repository is the cool archive of the coding fun we had together. It's like a scrapbook of all the awesome code and good times. Big shoutout to everyone who joined in!
+And that's a wrap! From 14th Feb 2024 to 9th March 2024, this repository is the cool archive of the coding fun we had together. It's like a scrapbook of all the awesome code and good times. Big shoutout to everyone who joined in!
 
 ## Participants ❤
 
