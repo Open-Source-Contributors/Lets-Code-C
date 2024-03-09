@@ -107,3 +107,17 @@ This bootcamp and its associated code are licensed under the terms of the [MIT L
 ---
 
 **Lets Code C - Sharpening Your C Programming Skills, One Challenge at a Time!**
+---
+
+# 🚀 Event Conclusion
+
+And that's a wrap! From 14th Feb 2024 to [9th March 2024], this repository is the cool archive of the coding fun we had together. It's like a scrapbook of all the awesome code and good times. Big shoutout to everyone who joined in!
+
+## Participants ❤
+
+<a href="https://github.com/Open-Source-Contributors/Lets-Code-C/graphs/contributors">
+<img src = "https://contrib.rocks/image?repo=Open-Source-Contributors/Lets-Code-C"/>
+</a>
+
+
+Until next time, happy coding and keep the vibes alive! 🎉
